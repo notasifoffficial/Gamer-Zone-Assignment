@@ -8,6 +8,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.primary-button{
+    border-radius: 50px;
+    border: none;
+    background: var(--linear, linear-gradient(90deg, #FF43A5 0%, #FF42A5 100%));
+    padding: 15px 35px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
 .nav-container{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -66,6 +75,79 @@ a:hover{
     border-radius: 5px;
     padding: 0.5px;
 }
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    height: 74vh;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.banner-section{
+   text-align: center;
+   width: 800px;
+   padding: 200px 0px;
+}
+.banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 200px;
+}
+.banner-title h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 800;
+    margin-right: 10px;
+}
+.banner-description{
+    color: #534C64;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+.banner-button{
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.second-banner-button{
+    background: #4EC5F7;
+    border-radius: 50px;
+    border: none;
+    padding: 15px 35px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.banner-img{
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 450px) {
     .nav-container{
