@@ -17,6 +17,13 @@
     font-size: 20px;
     font-weight: 600;
 }
+.primary-word-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
 .nav-container{
     /* border: 1px solid red; */
     /* width: 100vw; */
@@ -150,7 +157,12 @@ button:hover{
     margin-right: 80px;
     
 }
-
+.online-videos-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
 
 
 
@@ -190,7 +202,7 @@ button:hover{
         position: absolute;
     }
     .banner-title{
-        
+
     }
     .banner-img img{
         width: 100vw;
