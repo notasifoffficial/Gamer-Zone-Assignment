@@ -25,8 +25,6 @@
     font-weight: 800;
 }
 .nav-container{
-    /* border: 1px solid red; */
-    /* width: 100vw; */
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     text-align: center;
@@ -45,7 +43,6 @@
     gap: 5px;
 }
 .nav-logo img{
-    /* width: 60px; */
     object-fit: contain;
 }
 .nav-logo>h1{
@@ -88,7 +85,6 @@ a:hover{
 }
 .banner-container{
     height: 100vh;
-    /* border: 1px solid blue; */
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -100,7 +96,6 @@ a:hover{
 .banner-section{
     text-align: center;
     margin-left: 10px;
-    /* width: 800px; */
     padding: 200px 100px;
 }
 .banner-title{
@@ -109,7 +104,6 @@ a:hover{
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
-    /* margin-right: 200px; */
 }
 .banner-title h2{
     margin-right: 40px;
@@ -272,11 +266,6 @@ button:hover{
     left: 640px;
     z-index: 1;
 }
-
-
-/* .button-mini-games-container{
-    margin: 8rem 0rem;
-} */
 .button-game-one{
     display: flex;
     justify-content: center;
@@ -302,32 +291,10 @@ button:hover{
     font-size: 16px;
     font-weight: 600;
 }
-
-/* .button-game-d{
-    display: flex;
-    justify-content: left;
-    gap: 1rem;
-    align-items: center;
-    max-width: 18.8rem;
-    max-height: 5rem;
-    border-radius: 3.125rem;
-    background: var(#FFF);
-    color: var(#000000);
-    font-weight: 600;
-    border: 1px solid var(#FFF);
-    padding: 0.5rem 1rem;
-    font-size: 0.938rem;
-} */
-
 .button-game-icon-image img{
     width: 72px;
     height: 72px;
 }
-
-/* .button-game-d img{
-    width: 3.75rem;
-    height: 3.75rem;
-} */
 .button-game-icon-image:hover{
     color: #FF42A5;
     border: 1px solid #FF42A5;
@@ -335,16 +302,6 @@ button:hover{
     transition: 1s;
 
 }
-
-/* .button-game-d:hover{
-    border: 1px solid var(#FF42A5);
-    
-    color: var(#FF42A5);
-    transition: 1s;
-} */
-
-
-
 .footer-container{
     display: flex;
     justify-content: center;
@@ -401,59 +358,7 @@ button:hover{
     text-align: center;
     font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 450px) {
-    /* .nav-container{
-        height: 250px;
-    }
-    .nav-logo{
-        margin: auto;
-    }
-    .nav-about{
-        padding: 135px 135px 0px;
-        display: block;
-        position: absolute;
-    }
-    .nav-about a, li{
-        margin-bottom: 10px;
-    }
-    .banner-section{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        position: absolute;
-    }
-    .banner-title{
-
-    }
-    .banner-img img{
-        width: 100vw;
-    } */
-
-
     .nav-section,
     .funny-videos-container,
     .card-container,
