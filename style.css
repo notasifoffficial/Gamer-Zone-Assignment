@@ -36,7 +36,9 @@
 }
 .nav-section{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .nav-logo{
     display: flex;
@@ -74,11 +76,11 @@ a:hover{
     border-radius: 8px;
     padding: 7px;
 }
-.fa-brands{
+.fa-brands-1{
     font-size: 18px;
     margin-left: 2px;
 }
-.fa-brands:hover{
+.fa-brands-1:hover{
     background-color: #009bf5;
     transition: 1.5s;
     border-radius: 5px;
@@ -245,8 +247,8 @@ button:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 8rem;
-    margin-bottom: 7rem;
+    gap: 128px;
+    margin-bottom: 112px;
 }
 
 .play-instantly-content{
@@ -261,11 +263,11 @@ button:hover{
 
 .play-instantly-image-one{
     position: absolute;
-    height: 22rem;
-    width: 20rem;
+    height: 352px;
+    width: 320px;
     margin-left: 400px;
-    top: 120rem;
-    left: 40rem;
+    top: 1920px;
+    left: 640px;
     z-index: 1;
 }
 
@@ -277,24 +279,25 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
-    margin-bottom: 3rem ;
-    /* flex-wrap: wrap; */
+    margin-top: 80px;
+    margin-bottom: 48px ;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .button-game-icon-image{
-    /* display: flex; */
-    /* justify-content: left; */
-    /* gap: 1rem; */
+    display: flex;
+    justify-content: left;
+    gap: 12px;
     align-items: center;
-    max-width: 20rem;
-    max-height: 5rem;
-    /* border-radius: 5rem; */
+    max-width: 320px;
+    max-height: 80px;
+    border-radius: 80px;
     background: #FFF;
     color: #000000;
     border: 1px solid #FFF;
-    padding: 1rem;
-    font-size: 1rem;
+    padding: 16px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -315,15 +318,14 @@ button:hover{
 } */
 
 .button-game-icon-image img{
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 72px;
+    height: 72px;
 }
 
 /* .button-game-d img{
     width: 3.75rem;
     height: 3.75rem;
 } */
-
 .button-game-icon-image:hover{
     color: #FF42A5;
     border: 1px solid #FF42A5;
@@ -341,8 +343,62 @@ button:hover{
 
 
 
-
-
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background: #0B0223;;
+    height: 100vh;
+    gap: 100rem;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    margin-top: 100px;
+    gap: 10px;
+    text-align: center;
+}
+.footer-menu-section ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer-menu-section a{
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.social-media-section{
+    font-size: 35px;
+    color: #FFF;
+    text-align: center;
+}
+.social-media-section i{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+.footer-rules ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-bottom: 30px;
+}
+.footer-rules a{
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 15px;
+}
 
 
 
@@ -368,7 +424,7 @@ button:hover{
 
 
 @media screen and (max-width: 450px) {
-    .nav-container{
+    /* .nav-container{
         height: 250px;
     }
     .nav-logo{
@@ -383,9 +439,9 @@ button:hover{
         margin-bottom: 10px;
     }
     .banner-section{
-        /* display: flex;
+        display: flex;
         justify-content: center;
-        flex-direction: column; */
+        flex-direction: column;
         position: absolute;
     }
     .banner-title{
@@ -393,5 +449,20 @@ button:hover{
     }
     .banner-img img{
         width: 100vw;
+    } */
+
+
+    .nav-section,
+    .funny-videos-container,
+    .card-container,
+    .play-instantly{
+        flex-direction: column;
+    }
+    .nav-about{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .banner-section, .play-instantly{
+        flex-direction: column-reverse;
     }
 }
