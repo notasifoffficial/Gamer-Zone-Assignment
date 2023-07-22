@@ -155,6 +155,8 @@ button:hover{
     margin-left: 20px;
 }
 .banner-img img{
+    display: flex;
+    justify-content: center;
     margin-right: 80px;
     
 }
@@ -462,7 +464,14 @@ button:hover{
         flex-direction: column;
         gap: 15px;
     }
-    .banner-section, .play-instantly{
-        flex-direction: column-reverse;
+    .banner-img img{
+        flex-direction: column;
+    }
+    .banner-img img{
+        width: 100vw;
+    }
+    .play-instantly{
+        align-items: center;
+        text-align: left;
     }
 }
